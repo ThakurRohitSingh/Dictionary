@@ -29,7 +29,7 @@ const Header = () => {
           Simple Dictionary
         </h1>
         <p className="text-center mt-1 mb-10 text-slate-300 text-lg">
-          Find definisions for word
+          Find definition for word
         </p>
         <div className="flex items-center justify-center mt-5">
             <div className="flex border-2 border-gray-200 rounded">

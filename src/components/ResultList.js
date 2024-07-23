@@ -48,14 +48,14 @@ const ResultList = () => {
   }
 
   if (error) {
-    return <h3 className="text-center mt-10 font-semibold text-gray-500">No Definisions Found</h3>
+    return <h3 className="text-center mt-10 font-semibold text-gray-500">No Definition Found</h3>
   }
 
   return (
     <div className="container mx-auto p-4 max-w-2xl">
       {response && (
         <div>
-        <h3 className="text-2xl font-bold mt-4">Meaning & Definisions:</h3>
+        <h3 className="text-2xl font-bold mt-4">Meaning & Definition:</h3>
         <MeaningList mean={response}/>
         <h3 className="text-2xl font-bold mt-4">Example:</h3>
         <Example mean={response}/>
