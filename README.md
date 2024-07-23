@@ -1,3 +1,8 @@
+## Screenshots
+
+![Screenshot 1](public/Dictionary_Ui.png)
+
+
 # Dictionary Web App
 
 A dictionary web application built with React and Tailwind CSS that provides meanings, examples, antonyms, and synonyms for words.
@@ -10,10 +15,6 @@ A dictionary web application built with React and Tailwind CSS that provides mea
 - Responsive design with Tailwind CSS
 
 
-## Screenshots
-
-![Screenshot 1](path_to_screenshot1)
-![Screenshot 2](path_to_screenshot2)
 
 ## Installation
 
@@ -47,24 +48,26 @@ A dictionary web application built with React and Tailwind CSS that provides mea
 
 ## Project Structure
 
-dictionary-webapp/
-├── public/
-│ ├── index.html
-├── src/
-│ ├── components/
-│ │ ├── Meaning.js
-│ │ ├── Example.js
-│ │ ├── Antonyms.js
-│ │ ├── Synonyms.js
-│ ├── App.js
-│ ├── index.js
-│ ├── styles/
-│ │ ├── tailwind.css
-│ ├── utils/
-│ │ ├── api.js
-├── tailwind.config.js
-├── package.json
+public/   
+├── Dictionary_Ui.png   
+├── favicon.ico   
+└── index.html   
 
+src/   
+├── components/   
+│ ├── Antonym.js       
+│ ├── Example.js   
+│ ├── Header.js   
+│ ├── MeaningList.js   
+│ ├── ResultList.js   
+│ └── Synonym.js   
+├── App.js   
+├── index.css   
+└── index.js   
+└── package-lock.json           
+└── package.json      
+└── tailwind.config.js        
+└── README.md
 
 
 ## Contributing
